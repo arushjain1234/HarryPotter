@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+   <head>
+          <title>Harry Potter</title>  
+  </head>
+  
+   <body>
+    
+          <style>
+             body {background-color:lightsteelblue ;}
+             h1 {color:midnightblue;
+             background-color: lightgrey;
+             text-align: center;
+             border:solid;
+             border-radius: 10px;     
+                     
+             }
+
+             form {border:dashed;
+             border-radius: 10px;
+             padding: 10px;
+             background-color: lightgray;
+
+             }
+
+             
+
+          </style>
+
+
+
+
+
+
+
+      <h1>THE HARRY POTTER SERIES</h1>
+ 
+    <h4 style="text-align: center;">Author - J.K. Rowling</h4>
+
+         <nav>
+           <a href="#">Home</a>
+           <a href="https://www.google.com/" target="_blank">About</a>
+           <a href="#">Blog</a>
+           <a href="#">Contact Us</a>
+      
+         </nav>
+          <br><br><br>
+         <img src="https://cdn.pixabay.com/photo/2019/03/24/12/16/harry-potter-4077470_960_720.png">
+
+         <h2>Short Description Of Harry Potter Series</h2>
+         
+         <p style="text-align: justify;">Harry Potter is a series of seven fantasy novels written by British author, J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).</p>
+
+         <h4>Order of Books</h4>
+         <Ol>
+            <li>The Philosoper's Stone</li>
+            <li>The Chamber of Secrets</li>
+            <li>The Prisoner of Azkaban</li>
+            <li>The Goblet of Fire</li>
+            <li>The Order of the Phoenix</li>
+            <li>The Half-Blood Prince</li>
+            <LI>The Deathly Hallows</LI>
+
+         </Ol>
+
+         <h4>Famous Characters in the Books</h4>
+         <ul>
+           <li>Harry Potter</li>
+           <li>Ron Weasley</li>
+           <li>Hermione Granger</li>
+           <li>Lord Vodemort</li>
+           <li>Albus Dumledore</li>
+         </ul>
+
+         <h4>Relationship Detail:</h4>
+
+         <table>
+           <tr> 
+               <th>SNo.</th>
+               <th>Characters</th>
+               <th>Relation with HP</th>
+           </tr>   
+
+           <tr>
+               <td>1</td>
+               <td>Ron Wheasley</td>
+               <td>Freind</td>  
+           </tr>
+
+           
+           <tr>
+            <td>2</td>
+            <td>Hermione Granger</td>
+            <td>Freind</td>  
+        </tr>
+
+        
+        <tr>
+          <td>3</td>
+          <td>Albus Dumbledore</td>
+          <td>teacher</td>  
+      </tr>
+
+
+         </table>
+
+         <h4>To give your suggestions please leave your details in the form, we will contact you</h4>
+
+         <form>
+           <p>Name:</p>
+           <input type="text" name="name">
+           <p>Email:</p>
+           <input type="text" name="email">
+           <br><br>
+           <input type="submit">
+
+         </form>
+
+         <br><br>
+
+      <footer>
+
+        <p><b>Reach us at</b><br>email: <br>phone: <br>facebook page: <br>copyright harrypotterseries@2020</p>
+
+    
+      </footer>
+
+
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+
+
+
+</html>
